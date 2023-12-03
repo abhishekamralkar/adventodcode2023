@@ -1,7 +1,7 @@
 def main():
-    print(calibrationDataTotal())
+    print(calibrationData())
 
-def calibrationDataTotal():
+def calibrationData():
     """
     Calibration Data Count:
     Function read the file calibrations.txt and get the count
