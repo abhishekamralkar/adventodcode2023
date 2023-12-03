@@ -6,7 +6,7 @@ def calibrationDataTotal():
     Calibration Data Count:
     Function read the file calibrations.txt and get the count
     """
-    with open('calibrations.txt', 'r') as file:
+    with open('input.txt', 'r') as file:
         data = file.readlines()
     
     count = 0
